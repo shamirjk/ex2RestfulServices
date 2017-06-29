@@ -1,0 +1,28 @@
+<div *ngFor="let movie of movies">
+  <ul class="list-group">
+    <li class="list-group-item movieName">
+     {{movie.name}} <span class="badge"> {{movie.info[1].rate}}</span>
+    </li>
+    <li class="list-group-item">
+      <b>Release Year: </b>{{movie.year}}
+    </li>
+    <li class="list-group-item">
+      <b>Directed by: </b> {{movie.Director}}
+    </li>
+    <li class="list-group-item">
+      <h4>Starring:</h4>
+      {{movie.Stars}}
+    </li>
+    <li class="list-group-item">
+     <b>Running time: </b> {{movie.info[2].length}}
+    </li>
+    <li class="list-group-item">
+      <h4>Summary:</h4>
+      {{movie.info[0].summary}}
+    </li>
+    <li class="list-group-item">
+      <h5>#Hashtags:</h5>
+      {{movie.category}}
+    </li>
+  </ul>
+</div>

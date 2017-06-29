@@ -1,0 +1,14 @@
+.list-group{
+  width: 25%;
+  margin: 35px 45px;
+  float: left;
+}
+.movieName{
+  background: cornflowerblue;
+  font-size: 125%;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.movieName>span{
+  font-size: 80%;
+}
